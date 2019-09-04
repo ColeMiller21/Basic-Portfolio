@@ -8,10 +8,9 @@ body {
     width: 100%;
     font-family: "Arial", "helvetica Neue", Arial, Helvetica, sans-serif;
     background-color: #eee;
-    background-image: url("images/interlaced.png");
+    background-image: url("basic-portfolio/assets/images/interlaced.png");
 
 }
-
 
 #header {
     width: 100%;
@@ -57,18 +56,18 @@ body {
     line-height: 100px;
 }
 
-#nav ul li a{
+#nav ul li a {
     height: 100px;
     display: inline-block;
     padding: 0px 5px;
-    color: black;
+    color: #cccc;
 }
 
 #nav ul li a:hover {
     color: red;
 }
 
-#container {
+.container {
     width: 960px;
     clear: both;
     padding-top: 5px;
@@ -90,4 +89,30 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
+}
+
+#bio-image {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    float: left;
+}
+
+#bio-heading {
+    color: #4aaaa5;
+    display: block;
+    width: 900px;
+    border-bottom: 2.5px solid #cccc;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+#main-content {
+    
+}
+
+#aboutMe {
+    padding: 20px;
+    line-height: 30px;
 }
