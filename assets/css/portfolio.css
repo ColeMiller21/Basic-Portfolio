@@ -1,11 +1,19 @@
 .container {
+    margin-bottom: 150px;
 
+}
+
+#aboutMe {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-gap: 125px;
 }
 #project1 {
     height: 200px;
     width: 200px;
     margin: 8px;
     padding-right:20px;
+    padding-left: 20px;
 }
 
 #project2 {
@@ -13,6 +21,7 @@
     width: 200px;
     margin: 8px;
     padding-right: 20px;
+    padding-left: 20px;
     
 }
 
@@ -21,6 +30,7 @@
     width: 200px;
     margin: 8px;
     padding-right: 20px;
+    padding-left: 20px;
 }
 
 #project4 {
@@ -28,6 +38,7 @@
     width: 200px;
     margin: 8px;
     padding-right: 20px;
+    padding-left: 20px;
     
 }
 
@@ -36,4 +47,6 @@
     width: 200px;
     margin: 8px;
     padding-right: 20px;
+    padding-left: 20px;
 }
+
