@@ -32,8 +32,14 @@ label {
     color: #ffffff;
     padding: 10px;
     margin: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .submit:hover {
     background-color: #cccccc;   
+}
+
+.container {
+    margin-bottom: 150px;
 }
