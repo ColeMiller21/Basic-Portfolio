@@ -5,8 +5,8 @@
 
 #aboutMe {
     display: grid;
-    grid-template-columns: 100px 100px;
-    grid-gap: 125px;
+    grid-template-columns: 200px 200px;
+    grid-gap: 30px;
 }
 #project1 {
     height: 200px;
