@@ -7,8 +7,7 @@
 body {
     width: 100%;
     font-family: "Arial", "helvetica Neue", Arial, Helvetica, sans-serif;
-    background-color: #eee;
-    background-image: url("../images/interlaced.png.png");
+    background-image: url("../images/old_wall.png");
 
 }
 
@@ -21,7 +20,7 @@ h1 h2 {
     height: 100px;
     display: block;
     background-color: white;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #4aaaa5;
     margin-bottom: 50px;
 }
 
@@ -31,7 +30,7 @@ h1 h2 {
     display: block;
     margin: 0 auto;
     background-color: white;
-    border-bottom-style: 2px solid #cccc;
+    border-bottom-style: 2px solid #4aaaab;
 }
 #name {
     height: 60px;
@@ -41,7 +40,7 @@ h1 h2 {
     margin: 20px;
     display: table-cell;
     vertical-align: middle;
-    background-color: #4aaaa5;
+    background-color: #4aaaab;
     padding: 10px;
     color: white;
 }
@@ -71,12 +70,10 @@ h1 h2 {
     
 }
 
-#nav li:last-child a {
-    border: none;
-}
 
 #nav ul li a:hover {
     color: #4aaaa5;
+    border-bottom: 1px dashed #4aaaab;
 }
 
 .container {
@@ -85,7 +82,7 @@ h1 h2 {
     padding-top: 10px;
     margin: 0 auto;
     border: .5px solid #cccc;
-    background-color: white;
+    background-color: #ffffff;
     margin-top: 10px;
     
 }
@@ -130,7 +127,7 @@ footer {
     display: block;
     width: 100%;
     height: 60px;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #4aaaab;
     position: fixed;
     bottom: 0;
     left: 0;

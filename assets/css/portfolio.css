@@ -16,6 +16,25 @@
     padding-left: 20px;
 }
 
+#box1 {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #4aaaab;
+    color: white;
+    position: relative;
+    bottom: 75px;
+    text-align: center;
+}
+
+#para1 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 8px;
+    text-align: center;
+}
+
 #project2 {
     height: 200px;
     width: 200px;
